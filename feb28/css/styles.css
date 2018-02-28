@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+section {
+  height: 600px;
+  background-color: purple;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+
+div {
+  flex: 1;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  margin: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
