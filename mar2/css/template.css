@@ -69,11 +69,24 @@ header div {
   margin: 0 auto;
 }
 
+#features {
+  text-align: center;
+}
+
 #features ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #features ul li {
   width: 25%;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+#features ul i {
+  font-size: 300%;
+  color: darkturquoise;
 }
 /*# sourceMappingURL=template.css.map */
