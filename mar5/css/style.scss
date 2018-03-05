@@ -1,0 +1,42 @@
+main {
+    background-color: lightcoral;
+    height: 50vh;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    // top: ;
+    right: 10px;
+    bottom: 0;
+    // left: ;
+}
+
+.img2 {
+    position: absolute;
+    // top: ;
+    // right: ;
+    bottom: 50px;
+    left: 20px;
+}
+
+.img3 {
+    top: 0px;
+    right: 10px;
+    position: absolute;
+}
+
+.img4 {
+    top: 0px;
+    left: 10px;
+    position: absolute;
+}
+
+div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparentize(lightseagreen, .5);
+}
