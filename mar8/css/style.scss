@@ -26,6 +26,9 @@ body, html {
 .pigm1{
     background-image:url('../img/building-church-spain-sight.jpg');
     min-height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pigm2{
@@ -55,7 +58,7 @@ body, html {
 }
 
 .ptext{
-    position: absolute;
+    // position: absolute;
     top: 50%;
     width: 100%;
     text-align:center;
@@ -69,6 +72,11 @@ body, html {
     color: #fff;
     padding: 20px;
 }
+// @media only screen and (max-width: 600px) {
+//     body {
+//         background-color: lightblue;
+//     }
+// }
 
 .ptext .border.trans{
     background-color: transparent;

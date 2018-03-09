@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css");
+/*Global Styles*/
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  line-height: 1.35;
+  color: #4f4f4f;
+}
+
+h2 {
+  font-weight: 400;
+  color: #4e4e4e;
+  padding-top: 2vw;
+  margin-top: none;
+  border-top: 1px solid lightened(#4f4f4f, 60);
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-transform: uppercase;
+  font-size: 50%;
+  padding: 2px 8px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #b5b5b5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 2vw 4vw;
+  text-transform: uppercase;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-top: 2vw;
+  font-size: 80%;
+  font-weight: 400;
+  color: #b5b5b5;
+  transition: all 200ms;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+#skillsets {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#skillsets li {
+  width: 47%;
+  background-color: #e6e6e6;
+  position: relative;
+  bottom: -50px;
+  animation-name: skills;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  /*Makes the animation stay there*/
+  /*    transition: all 500ms;
+        transition-delay: 2s;
+    }
+    li:first-child {
+        left: -50px;
+        opacity: 0;
+    }
+    li:last-child{
+        right: -50px;
+        opacity: 0;
+    }
+
+    &:hover li:first-child{
+        left: 0;
+        opacity: 1;
+    }
+    &:hover li:last-child{
+        right: 0;
+        opacity: 1; */
+}
+
+#skillsets figcaption {
+  text-align: center;
+}
+
+#skillsets img {
+  width: 100%;
+}
+
+#skillsets div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8vw 4vw;
+}
+
+#skillsets div * {
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+}
+
+#skillsets div h2 {
+  animation: skills 500ms forwards 1s;
+}
+
+#skillsets div p {
+  animation: skills 500ms forwards .65s;
+}
+
+#skillsets p {
+  width: 100%;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+@keyframes skills {
+  from {
+    bottom: -50px;
+  }
+  to {
+    bottom: 0px;
+  }
+  i {
+    display: block;
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    animation: spinner 1s infinite linear;
+  }
+}
+/*# sourceMappingURL=style.css.map */
