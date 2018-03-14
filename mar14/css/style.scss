@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    background-color: rgba(68, 61, 61, 0.685);
+}
+
+main {
+    
+    display: flex; 
+    flex-direction: row;
+
+    // align-items: center;
+
+    a {
+        flex: 1;
+        height: 100vh;
+        // text-align: center;
+        // display: inline;
+        // position: relative;
+        // vertical-align: middle;
+        // z-index: -1;
+        // position: relative;
+        text-align: center;
+        // position: relative;
+		// display: block;
+
+        h1 {
+            // flex-wrap: nowrap;
+            // position: absolute;
+            // top: 0;
+            // right: 0;
+            // position: relative;
+            // text-align: center;
+            // padding: 70 px 0;
+            // display: block;
+            // border: 3px solid green;
+            // height:50%;
+            // width: 50%;
+            // justify-content: center;
+            // margin: 0 auto;
+            // display: block;
+            // margin: auto;
+            // vertical-align: middle;
+            font-size: 40px;
+        }
+
+        &.about {
+            // position: absolute;
+ 
+            // display: inline;
+            // box-shadow: none;
+            background-image: url('../img/become-a-developer.jpg');
+            background-size: cover;
+            background-position: center;
+            // align-items: center;
+            // justify-content: center;
+            // float: left;
+            // padding: 70px 0;
+            // border: 3px solid green;
+            // text-align: center;
+            // top: 50%;
+            // left: 50%;
+            // transform: translate (-50%, -50%);
+            // h1 {
+            //     color: red;
+            // }
+        }
+
+        &.portfolio {
+            background-image: url('../img/Teamwork.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        &.contact {
+            background-image: url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    // .developer {
+    //     // display: flex; 
+
+    //     height: 100vh;
+    //     // width: calc(100vw / 3);
+    //     // flex-direction: row;
+    //     // justify-content: left; /*or "left"*/
+    //     // top: 0 0;
+    //     // right:75vw;
+    //     // bottom: 0 0;
+    //     // left: 0 0;
+    // }
+
+    // .pieces {
+
+    //     // display: flex;
+    //     height: 100vh;
+    //     // width: calc(100vw / 3);
+    //     // flex-direction: row;
+    //     // justify-content: center;
+    // }
+
+    // .connect {
+    //     height: 100vh;
+    //     width: calc(100vw / 3);
+    //     // justify-content: right;
+
+    // }
+}

@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  background-color: rgba(68, 61, 61, 0.685);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main a {
+  flex: 1;
+  height: 100vh;
+  text-align: center;
+}
+
+main a h1 {
+  font-size: 40px;
+}
+
+main a.about {
+  background-image: url("../img/become-a-developer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main a.portfolio {
+  background-image: url("../img/Teamwork.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main a.contact {
+  background-image: url("../img/SetWidth592-world-after-tomorrow-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
