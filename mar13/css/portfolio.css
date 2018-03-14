@@ -1,0 +1,46 @@
+html {
+  background-color: purple;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: 150px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+img.developer {
+  position: fixed;
+  top: 0;
+  right: 75%;
+  bottom: 0;
+  left: 75%;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  transition: all 1s;
+}
+
+.container:hover img {
+  transform: scale(-1.2);
+  transform-style: inherit;
+  transition: all 1s;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/*# sourceMappingURL=portfolio.css.map */

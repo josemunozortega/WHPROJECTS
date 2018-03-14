@@ -1,0 +1,230 @@
+//scratch this (maybe pick up a few concepts-credit goes to UO Pixels for code and ideas
+body {
+    background-color: #f9f9f9;
+}
+
+// a {
+//     -o-transition: 5s;
+//     -ms-transition: 5s;
+//     -moz-transition: 5s;
+//     -webkit-transition: 5s;
+//     transition: 5s;
+//     text-decoration: none;
+// }
+
+// img {
+//     width: 100%;
+// }
+
+h1,h2,h3,h4,h5 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+}
+
+// h3 {
+//     text-transform: capitalize;
+//     font-size: 2em;
+//     padding: 0 0 1% 0;
+//     color: #001833;
+//     font-weight: 800;
+// }
+
+header {
+    background-size: cover;
+    background-position: center-top;
+    width: 100%;
+}
+
+// //change this to mobile friendly
+// .intro {
+//     max-width: 960px;
+//     margin: 0 auto;
+//     padding: 8% 0;
+// }
+
+// .intro h1 {
+//     font-size: 6em;
+//     text-align: center;
+//     color: #fff;
+//     text-transform: uppercase;
+//     letter-spacing:0.1em;
+//     font-weight: 800;
+//     line-height: 1.5em;
+// }
+
+// .intro h2 {
+//     font-size: 2em;
+//     text-align: center;
+//     color: #fff;
+//     font-weight: 300;
+//     text-transform: capitalize;
+// }
+
+// .wrapper {
+//     max-width: 960px;
+//     margin: 0 auto;
+//     font-family: proxima-nova, sans-serif;
+// }
+
+// .about {
+//     padding: 4% 0;
+// }
+
+// .about p {
+//     font-family: proxima-nova, sans-serif;
+//     font-style: normal;
+//     font-weight: 300; 
+//     line-height: 1.8;
+//     color: #616569;
+//     letter-spacing: .03em;
+//     margin: 10px auto;
+//     font-size: 1.5em;
+//     padding: 2% 0;
+// }
+
+// .about p a {
+//     color: #e1ccc9;
+//     border-bottom: 2px solid;
+// }
+
+// .work {
+//     height: 300px;
+//     padding: 2% 0;
+// }
+
+// .work h3 {
+//     padding: 4% 0;
+// }
+
+// .text-box {
+//     float: left;
+//     text-align: left;
+//     background-color: #fff;
+//     height: 100%;
+// }
+
+// .text-box-content {
+//     padding: 4% 8%;
+// }
+
+// .text-box-content p {
+//     line-height: 1.8;
+//     color: #616569;
+//     letter-spacing: .03em;
+//     font-size: 1em;
+// }
+
+.register{
+    margin:50px auto;
+    display:block;
+    width:180px;
+    height:50px;
+    border:3px solid white;
+    background-color:rgba(255,255,255,0);
+    color:white;
+    font-family:sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+
+    transition: background-color 1000ms, color 1000ms;
+}
+.register:hover{
+    background-color:rgba(255,255,255,1);
+    color:#222;
+    cursor:pointer;
+
+    transition: background-color 1000ms, color 1000ms;
+}
+
+// .button {
+//     padding: 5% 3%;
+//     border: 3px solid #e0ccc8;
+//     letter-spacing: 0.2em;
+//     text-decoration: none;
+//     color: #e0ccc8;
+//     text-align: center;
+//     display: block;
+//     font-weight: 600;
+//     text-transform: uppercase;
+//     margin-top: 4%;
+// }
+
+// .button:hover {
+//     color: #fff;
+//     background-color: #e0ccc8;
+// }
+
+.image-area {
+    width: 480px;
+    height: 300px;
+    overflow: hidden;
+}
+
+// .left {
+//     float: left;
+// }
+
+// .right {
+//     float: right;
+// }
+
+.contact {
+    width: 100%;
+    background-color: #011833;
+    padding: 5% 0;
+    margin-top: 5%;
+    clear: both;
+}
+
+// .contact-content {
+//     max-width: 960px;
+//     margin: 0 auto;
+//     text-align: center;
+// }
+
+// .contact-content h4 {
+//     font-size: 1.875em;
+//     padding: 1% 0;
+//     color: #fff;
+//     font-weight: 600;
+//     letter-spacing: 0.04em;
+// }
+
+// .contact-content a {
+//     color: #e0ccc8;
+//     text-decoration: none;
+// }
+
+footer {
+    background-color:#e0ccc8;
+    color: #fff;
+    padding: 2% 0;
+    width: 100%;
+    clear: both;
+    height: 100px;
+}
+
+.footer-content {
+    max-width: 960px;
+    padding: 2% 0;
+    margin: 0 auto;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.4;
+    color: blue;
+    letter-spacing: .03em;
+    font-size: 1em;
+}
+
+.credit {
+    float: left;
+}
+
+
+// //Change tags
+// @media(max-width:568px){
+//     .pimg1, .pimg2, .pimg3{
+//         background-attachment:scroll;
+//     }
+// }
