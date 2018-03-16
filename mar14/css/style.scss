@@ -1,109 +1,122 @@
 html, body {
     height: 100%;
-    background-color: rgba(68, 61, 61, 0.685);
+    margin:0px;
+    // overflow: inherit;
+    // position: absolute;
+   // background-color: purple;
+    // position: fixed;
+    // overflow: hidden;
+
 }
 
 main {
     
     display: flex; 
     flex-direction: row;
+    // overflow: hidden;
 
-    // align-items: center;
+
 
     a {
+        // filter: brightness(0.7);
         flex: 1;
         height: 100vh;
-        // text-align: center;
-        // display: inline;
-        // position: relative;
-        // vertical-align: middle;
-        // z-index: -1;
-        // position: relative;
         text-align: center;
-        // position: relative;
-		// display: block;
+        text-decoration: none;
+        overflow: initial;
+        // max-width: 100%;
+        // max-height: 100%;
+        // overflow: hidden;
+
 
         h1 {
-            // flex-wrap: nowrap;
-            // position: absolute;
-            // top: 0;
-            // right: 0;
-            // position: relative;
-            // text-align: center;
-            // padding: 70 px 0;
-            // display: block;
-            // border: 3px solid green;
-            // height:50%;
-            // width: 50%;
-            // justify-content: center;
-            // margin: 0 auto;
-            // display: block;
-            // margin: auto;
-            // vertical-align: middle;
+            // filter: brightness(1);
+            padding-top: 300px;
+            color: rgb(241, 231, 231);
+            text-transform: uppercase;
+            font-family: 'Russo One', sans-serif;
             font-size: 40px;
+            // overflow: hidden;
+        }
+
+        p {
+            color: rgb(235, 232, 232);
+            font-family: 'Ropa Sans', sans-serif;
+            font-size: 20px;
         }
 
         &.about {
-            // position: absolute;
- 
-            // display: inline;
-            // box-shadow: none;
-            background-image: url('../img/become-a-developer.jpg');
+            // filter: brightness(0.7);
+            // position: fixed;
+            background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
             background-size: cover;
             background-position: center;
-            // align-items: center;
-            // justify-content: center;
-            // float: left;
-            // padding: 70px 0;
-            // border: 3px solid green;
-            // text-align: center;
-            // top: 50%;
-            // left: 50%;
-            // transform: translate (-50%, -50%);
-            // h1 {
-            //     color: red;
-            // }
+            // opacity: .5;
+            // max-width: 100%;
+            // max-height: 100%;
+            // overflow: hidden;
+            // overflow: hidden;
+            
         }
 
         &.portfolio {
-            background-image: url('../img/Teamwork.jpg');
+            background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/Teamwork.jpg');
             background-size: cover;
             background-position: center;
         }
 
         &.contact {
-            background-image: url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
             background-size: cover;
             background-position: center;
         }
+
+        &.about:hover  {
+           // background-image: url('../img/become-a-developer.jpg');
+        //    background: linear-gradient( rgb(99, 156, 230), rgb(138, 17, 17) );
+            filter: brightness(1);
+            // opacity: 1;
+            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/become-a-developer.jpg');
+            transition: all .5s ease-in;
+            transform: scale(1.1);
+            // position: fixed;
+            // overflow: hidden;
+
+            // opacity:(0);
+
+        }
+
+        &.portfolio:hover {
+            filter: brightness(1);
+            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/Teamwork.jpg');
+            transition: all .5s ease-in;
+            transform: scale(1.1);
+
+        }
+
+        &.contact:hover {
+            filter: brightness(1);
+            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            transition: all .5s ease-in;
+            transform: scale(1.1);
+            // overflow: hidden;
+
+        }
     }
 
-    // .developer {
-    //     // display: flex; 
-
-    //     height: 100vh;
-    //     // width: calc(100vw / 3);
-    //     // flex-direction: row;
-    //     // justify-content: left; /*or "left"*/
-    //     // top: 0 0;
-    //     // right:75vw;
-    //     // bottom: 0 0;
-    //     // left: 0 0;
+    // .footer {
+    //     min-height: calc(100vh-70px);
+    //     padding: 40px 40px 0px 40px;
+    //     height: 50px;
     // }
+    
 
-    // .pieces {
-
-    //     // display: flex;
-    //     height: 100vh;
-    //     // width: calc(100vw / 3);
-    //     // flex-direction: row;
-    //     // justify-content: center;
-    // }
-
-    // .connect {
-    //     height: 100vh;
-    //     width: calc(100vw / 3);
-    //     // justify-content: right;
-
-    // }
 }
+
+  .footer {
+      overflow: visible;
+        min-height: calc(100vh - 70px);
+        padding: 40px 40px 0px 40px;
+        height: 50px;
+    }
+    //

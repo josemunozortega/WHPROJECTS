@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: rgba(68, 61, 61, 0.685);
+  margin: 0px;
 }
 
 main {
@@ -12,27 +12,67 @@ main a {
   flex: 1;
   height: 100vh;
   text-align: center;
+  text-decoration: none;
+  overflow: initial;
 }
 
 main a h1 {
+  padding-top: 300px;
+  color: #f1e7e7;
+  text-transform: uppercase;
+  font-family: 'Russo One', sans-serif;
   font-size: 40px;
 }
 
+main a p {
+  color: #ebe8e8;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+}
+
 main a.about {
-  background-image: url("../img/become-a-developer.jpg");
+  background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/become-a-developer.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main a.portfolio {
-  background-image: url("../img/Teamwork.jpg");
+  background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/Teamwork.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main a.contact {
-  background-image: url("../img/SetWidth592-world-after-tomorrow-4.jpg");
+  background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/SetWidth592-world-after-tomorrow-4.jpg");
   background-size: cover;
   background-position: center;
+}
+
+main a.about:hover {
+  filter: brightness(1);
+  background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)), url("../img/become-a-developer.jpg");
+  transition: all .5s ease-in;
+  transform: scale(1.1);
+}
+
+main a.portfolio:hover {
+  filter: brightness(1);
+  background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)), url("../img/Teamwork.jpg");
+  transition: all .5s ease-in;
+  transform: scale(1.1);
+}
+
+main a.contact:hover {
+  filter: brightness(1);
+  background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)), url("../img/SetWidth592-world-after-tomorrow-4.jpg");
+  transition: all .5s ease-in;
+  transform: scale(1.1);
+}
+
+.footer {
+  overflow: visible;
+  min-height: calc(100vh - 70px);
+  padding: 40px 40px 0px 40px;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
