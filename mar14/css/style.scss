@@ -1,11 +1,6 @@
 html, body {
     height: 100%;
     margin:0px;
-    // overflow: inherit;
-    // position: absolute;
-   // background-color: purple;
-    // position: fixed;
-    // overflow: hidden;
 
 }
 
@@ -36,6 +31,7 @@ main {
             text-transform: uppercase;
             font-family: 'Russo One', sans-serif;
             font-size: 40px;
+            // background-image: url('fas fa-code-branch');
             // overflow: hidden;
         }
 
@@ -54,7 +50,6 @@ main {
             // opacity: .5;
             // max-width: 100%;
             // max-height: 100%;
-            // overflow: hidden;
             // overflow: hidden;
             
         }
@@ -76,7 +71,7 @@ main {
         //    background: linear-gradient( rgb(99, 156, 230), rgb(138, 17, 17) );
             filter: brightness(1);
             // opacity: 1;
-            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/become-a-developer.jpg');
+            background-image: linear-gradient(rgba(44, 44, 44, 0.253), rgba(32, 32, 32, 0.877)),url('../img/become-a-developer.jpg');
             transition: all .5s ease-in;
             transform: scale(1.1);
             // position: fixed;
@@ -88,7 +83,7 @@ main {
 
         &.portfolio:hover {
             filter: brightness(1);
-            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/Teamwork.jpg');
+            background-image: linear-gradient(rgba(20, 20, 20, 0.534), rgba(19, 19, 19, 0.692)),url('../img/Teamwork.jpg');
             transition: all .5s ease-in;
             transform: scale(1.1);
 
@@ -96,7 +91,7 @@ main {
 
         &.contact:hover {
             filter: brightness(1);
-            background-image: linear-gradient(rgba(66, 227, 233, 0.253), rgba(29, 24, 99, 0.877)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            background-image: linear-gradient(rgba(44, 44, 44, 0.363), rgba(32, 32, 32, 0.877)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
             transition: all .5s ease-in;
             transform: scale(1.1);
             // overflow: hidden;
@@ -113,10 +108,10 @@ main {
 
 }
 
-  .footer {
-      overflow: visible;
-        min-height: calc(100vh - 70px);
-        padding: 40px 40px 0px 40px;
-        height: 50px;
-    }
-    //
+//   .footer {
+//       overflow: visible;
+//         min-height: calc(100vh - 70px);
+//         padding: 40px 40px 0px 40px;
+//         height: 50px;
+//     }
+//     //
