@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    margin:0px;
+
+}
+
+main {
+    
+    display: flex; 
+    flex-direction: row;
+
+
+
+
+    a {
+        flex: 1;
+        height: 100vh;
+        text-align: center;
+        text-decoration: none;
+
+
+        h1 {
+            padding-top: 300px;
+            color: rgb(241, 231, 231);
+            text-transform: uppercase;
+            font-family: 'Russo One', sans-serif;
+            font-size: 40px;
+        }
+
+        p {
+            color: rgb(235, 232, 232);
+            font-family: 'Ropa Sans', sans-serif;
+            font-size: 20px;
+        }
+
+        &.about {
+
+            overflow: hidden;
+            position: relative;
+
+            div {
+                position: absolute;
+                top:0;
+                right:0;
+                bottom:0;
+                left: 0;
+                transition: all .5s ease-in;
+                background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+            
+        }
+
+        &.portfolio {
+
+            overflow: hidden;
+            position: relative;
+            // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/Teamwork.jpg');
+            // background-size: cover;
+            // background-position: center;
+
+            div {
+                position: absolute;
+                top:0;
+                right:0;
+                bottom:0;
+                left: 0;
+                transition: all .5s ease-in;
+                background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/Teamwork.jpg');
+                // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        &.contact {
+
+            overflow: hidden;
+            position: relative;
+            // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            // background-size: cover;
+            // background-position: center;
+
+            div {
+                position: absolute;
+                top:0;
+                right:0;
+                bottom:0;
+                left: 0;
+                transition: all .5s ease-in;
+                background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+                // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        &.about:hover  {
+           // background-image: url('../img/become-a-developer.jpg');
+        //    background: linear-gradient( rgb(99, 156, 230), rgb(138, 17, 17) );
+            filter: brightness(1);
+            // opacity: 1;
+            background-image: linear-gradient(rgba(44, 44, 44, 0.253), rgba(32, 32, 32, 0.877)),url('../img/become-a-developer.jpg');
+            
+            
+            // position: fixed;
+            // overflow: hidden;
+
+            // opacity:(0);
+            div {
+                transform: scale(1.1);
+
+            }
+
+        }
+
+        &.portfolio:hover {
+            filter: brightness(1);
+            background-image: linear-gradient(rgba(20, 20, 20, 0.534), rgba(19, 19, 19, 0.692)),url('../img/Teamwork.jpg');
+            // transition: all .5s ease-in;
+            // transform: scale(1.1);
+
+            div {
+                transform: scale(1.1);
+
+            }
+
+        }
+
+        &.contact:hover {
+            filter: brightness(1);
+            background-image: linear-gradient(rgba(44, 44, 44, 0.363), rgba(32, 32, 32, 0.877)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
+            // transition: all .5s ease-in;
+            // transform: scale(1.1);
+            // overflow: hidden;
+
+            div {
+                transform: scale(1.1);
+
+            }
+
+        }
+    }
+
+    // .footer {
+    //     min-height: calc(100vh-70px);
+    //     padding: 40px 40px 0px 40px;
+    //     height: 50px;
+    // }
+    
+
+}
+
+//   .footer {
+//       overflow: visible;
+//         min-height: calc(100vh - 70px);
+//         padding: 40px 40px 0px 40px;
+//         height: 50px;
+//     }
+//     //

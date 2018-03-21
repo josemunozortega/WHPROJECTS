@@ -13,7 +13,6 @@ main a {
   height: 100vh;
   text-align: center;
   text-decoration: none;
-  overflow: initial;
 }
 
 main a h1 {
@@ -31,18 +30,51 @@ main a p {
 }
 
 main a.about {
+  overflow: hidden;
+  position: relative;
+}
+
+main a.about div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all .5s ease-in;
   background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/become-a-developer.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main a.portfolio {
+  overflow: hidden;
+  position: relative;
+}
+
+main a.portfolio div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all .5s ease-in;
   background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/Teamwork.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main a.contact {
+  overflow: hidden;
+  position: relative;
+}
+
+main a.contact div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all .5s ease-in;
   background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/SetWidth592-world-after-tomorrow-4.jpg");
   background-size: cover;
   background-position: center;
@@ -51,21 +83,27 @@ main a.contact {
 main a.about:hover {
   filter: brightness(1);
   background-image: linear-gradient(rgba(44, 44, 44, 0.253), rgba(32, 32, 32, 0.877)), url("../img/become-a-developer.jpg");
-  transition: all .5s ease-in;
+}
+
+main a.about:hover div {
   transform: scale(1.1);
 }
 
 main a.portfolio:hover {
   filter: brightness(1);
   background-image: linear-gradient(rgba(20, 20, 20, 0.534), rgba(19, 19, 19, 0.692)), url("../img/Teamwork.jpg");
-  transition: all .5s ease-in;
+}
+
+main a.portfolio:hover div {
   transform: scale(1.1);
 }
 
 main a.contact:hover {
   filter: brightness(1);
   background-image: linear-gradient(rgba(44, 44, 44, 0.363), rgba(32, 32, 32, 0.877)), url("../img/SetWidth592-world-after-tomorrow-4.jpg");
-  transition: all .5s ease-in;
+}
+
+main a.contact:hover div {
   transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */
