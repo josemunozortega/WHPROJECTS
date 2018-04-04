@@ -1,3 +1,5 @@
+@import url(https://use.fontawesome.com/releases/v5.0.9/css/all.css);
+
 html, body {
     height: 100%;
     margin:0px;
@@ -39,6 +41,7 @@ main {
             position: relative;
 
             div {
+
                 position: absolute;
                 top:0;
                 right:0;
@@ -48,6 +51,8 @@ main {
                 background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
                 background-size: cover;
                 background-position: center;
+                // pointer-events: none;
+                // cursor: not-allowed;
             }
             
         }
@@ -56,9 +61,6 @@ main {
 
             overflow: hidden;
             position: relative;
-            // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/Teamwork.jpg');
-            // background-size: cover;
-            // background-position: center;
 
             div {
                 position: absolute;
@@ -68,19 +70,20 @@ main {
                 left: 0;
                 transition: all .5s ease-in;
                 background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/Teamwork.jpg');
-                // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
                 background-size: cover;
                 background-position: center;
             }
+
+            // i {
+            //     text-align: center;
+                
+            // }
         }
 
         &.contact {
 
             overflow: hidden;
             position: relative;
-            // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
-            // background-size: cover;
-            // background-position: center;
 
             div {
                 position: absolute;
@@ -90,27 +93,19 @@ main {
                 left: 0;
                 transition: all .5s ease-in;
                 background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
-                // background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
                 background-size: cover;
                 background-position: center;
             }
         }
 
         &.about:hover  {
-           // background-image: url('../img/become-a-developer.jpg');
-        //    background: linear-gradient( rgb(99, 156, 230), rgb(138, 17, 17) );
+
             filter: brightness(1);
-            // opacity: 1;
             background-image: linear-gradient(rgba(44, 44, 44, 0.253), rgba(32, 32, 32, 0.877)),url('../img/become-a-developer.jpg');
             
-            
-            // position: fixed;
-            // overflow: hidden;
-
-            // opacity:(0);
             div {
-                transform: scale(1.1);
 
+                transform: scale(1.1);
             }
 
         }
@@ -118,12 +113,10 @@ main {
         &.portfolio:hover {
             filter: brightness(1);
             background-image: linear-gradient(rgba(20, 20, 20, 0.534), rgba(19, 19, 19, 0.692)),url('../img/Teamwork.jpg');
-            // transition: all .5s ease-in;
-            // transform: scale(1.1);
 
             div {
-                transform: scale(1.1);
 
+                transform: scale(1.1);
             }
 
         }
@@ -131,9 +124,6 @@ main {
         &.contact:hover {
             filter: brightness(1);
             background-image: linear-gradient(rgba(44, 44, 44, 0.363), rgba(32, 32, 32, 0.877)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
-            // transition: all .5s ease-in;
-            // transform: scale(1.1);
-            // overflow: hidden;
 
             div {
                 transform: scale(1.1);
@@ -143,19 +133,17 @@ main {
         }
     }
 
-    // .footer {
-    //     min-height: calc(100vh-70px);
-    //     padding: 40px 40px 0px 40px;
-    //     height: 50px;
-    // }
-    
+    .footer {
 
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 4.5vh;
+        background-color: rgba(216, 212, 212, 0.192);
+        color: black;
+        text-align: center;
+        font-size: 15px;
+    }
 }
 
-//   .footer {
-//       overflow: visible;
-//         min-height: calc(100vh - 70px);
-//         padding: 40px 40px 0px 40px;
-//         height: 50px;
-//     }
-//     //
