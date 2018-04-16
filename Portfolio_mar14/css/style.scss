@@ -51,8 +51,6 @@ main {
                 background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/become-a-developer.jpg');
                 background-size: cover;
                 background-position: center;
-                // pointer-events: none;
-                // cursor: not-allowed;
             }
             
         }
@@ -74,10 +72,10 @@ main {
                 background-position: center;
             }
 
-            // i {
-            //     text-align: center;
-                
-            // }
+            i {
+               color: #fff;
+            }
+
         }
 
         &.contact {
@@ -95,6 +93,11 @@ main {
                 background-image: linear-gradient(rgba(64, 65, 70, 0.966), hsla(64, 88%, 60%, .2)),url('../img/SetWidth592-world-after-tomorrow-4.jpg');
                 background-size: cover;
                 background-position: center;
+            }
+
+            i {
+                color: #fff;
+                
             }
         }
 

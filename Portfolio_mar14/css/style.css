@@ -64,6 +64,10 @@ main a.portfolio div {
   background-position: center;
 }
 
+main a.portfolio i {
+  color: #fff;
+}
+
 main a.contact {
   overflow: hidden;
   position: relative;
@@ -79,6 +83,10 @@ main a.contact div {
   background-image: linear-gradient(rgba(64, 65, 70, 0.966), rgba(231, 243, 63, 0.2)), url("../img/SetWidth592-world-after-tomorrow-4.jpg");
   background-size: cover;
   background-position: center;
+}
+
+main a.contact i {
+  color: #fff;
 }
 
 main a.about:hover {

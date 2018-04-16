@@ -1,0 +1,22 @@
+body {
+  background-color: salmon;
+}
+
+h3 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=adventure.css.map */
