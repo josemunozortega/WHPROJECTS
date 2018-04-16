@@ -3,6 +3,7 @@ body {
 }
 
 h3 {
+  font-size: 100px;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -17,6 +18,5 @@ nav {
 .button {
   padding: 10px;
   border-radius: 10px;
-  font-size: 24px;
 }
 /*# sourceMappingURL=adventure.css.map */
