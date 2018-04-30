@@ -1,3 +1,66 @@
+@import url(https://use.fontawesome.com/releases/v5.0.9/css/all.css);
+
 body {
-    background-color: salmon;
+    height: 100%;
+    margin: 0px;
+    // overflow: hidden;
+    // position: relative;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/Madrid.jpg');
+
+    div.icons {
+        display: flex;
+        flex-direction: row;
+        
+
+        i {
+            flex: 1;
+            // justify-content: space-between;
+            // align-items: center;
+            // position: relative;
+            // height: 100vh;
+            // text-decoration: none;
+            // overflow: hidden;
+            // position: relative;
+            // text-align: center;
+            color: #fff;
+            }
+    }
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: black;
 }

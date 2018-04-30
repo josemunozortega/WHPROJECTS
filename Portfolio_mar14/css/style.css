@@ -17,7 +17,11 @@ main a {
 }
 
 main a .fab {
-  padding-top: 30px;
+  padding-top: 35px;
+}
+
+main a .fas {
+  padding-top: 35px;
 }
 
 main a h1 {

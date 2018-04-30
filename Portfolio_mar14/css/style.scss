@@ -20,9 +20,12 @@ main {
         
       
         .fab {
-            padding-top: 30px;
+            padding-top: 35px;
         }
 
+        .fas {
+            padding-top: 35px;
+        }
 
         h1 {
             padding-top: 200px;
@@ -103,18 +106,6 @@ main {
                 
             }
         }
-
-        // &.about:hover  {
-
-        //     filter: brightness(1);
-        //     background-image: linear-gradient(rgba(44, 44, 44, 0.253), rgba(32, 32, 32, 0.877)),url('../img/become-a-developer.jpg');
-            
-        //     div {
-
-        //         transform: scale(1.1);
-        //     }
-
-        // }
 
         &.portfolio:hover {
             filter: brightness(1);
