@@ -6,23 +6,16 @@ body {
   background-size: cover;
   background-position: center;
   background-image: url("../img/Madrid.jpg");
-}
-
-body div.icons {
-  display: flex;
-  flex-direction: row;
-}
-
-body div.icons i {
-  flex: 1;
-  color: #fff;
+  overflow: hidden;
 }
 
 h1 {
   padding-top: 200px;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   color: #fff;
+  font-family: fantasy;
+  font-weight: 900;
 }
 
 .sidenav {
@@ -40,9 +33,20 @@ h1 {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 40px;
   color: #fff;
   display: block;
+}
+
+.sidenav a div.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav a div.icons i {
+  justify-content: space-between;
+  align-items: stretch;
+  color: #fff;
 }
 
 .sidenav a:hover {
