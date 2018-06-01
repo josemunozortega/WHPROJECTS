@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 interface Person {
   firstName: string;
   lastName: string;
-  sayHi: string;
+
+
+  sayHi(): string;
 }
 
 @Component({
@@ -15,13 +17,27 @@ export class AppComponent implements OnInit {
   title = 'app';
 
   ngOnInit() {
-    const customer: person;
-    const employee: person;
-    const sayHi = 'Hello!';
+    const customer: Person = {
+      firstName: 'joey',
+      lastName: 'ortega',
+      sayHi: () => {
+        return 'Hi';
+      }
+    };
+    console.log(customer.sayHi());
+
+    const employee: Person = {
+      firstName: 'test',
+      lastName: 'employee',
+      sayHi: () => {
+        return 'Hello!';
+      }
+    };
+    console.log(employee.sayHi());
   }
 }
 
-alert("Warning");
+// alert("Warning");
 // SuccessMessage();
 // WarningMessage();
 // DangerMessage();
